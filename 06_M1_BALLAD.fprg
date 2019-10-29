@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-29 08:31:35 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMDRDMjM7MjAxOS0xMC0yOTswODowMTowMyBBTTsyMTk0"/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMjM7MjAxOS0xMC0yOTswODozMTozNSBBTTsxOzIzMTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Num1" type="Integer" array="False" size=""/>
+            <declare name="Num2" type="Integer" array="False" size=""/>
+            <declare name="Answer" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="5"/>
+            <assign variable="num2" expression="10"/>
+            <assign variable="answer" expression="num1 + num2"/>
+            <output expression="&quot;The answer is &quot; &amp; answer" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
