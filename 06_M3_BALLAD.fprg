@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-21 08:03:40 PM"/>
+        <attribute name="created" value="UmFtcztMQUIzMDRDMTY7MjAxOS0xMC0yOTswODoyMzoxOSBBTTsyMjA3"/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMTY7MjAxOS0xMS0xOTswODozNjo1NiBBTTsyOzIzMjE="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtERVNLVE9QLUpPUEs0N087MjAxOS0xMS0yMTswODowMzo0MCBQTTsxOzM4Mzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <declare name="oddoreven" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter a number&quot;" newline="True"/>
+            <input variable="Number"/>
+            <assign variable="oddoreven" expression="number % 2"/>
+            <if expression="Oddoreven = 0">
+                <then>
+                    <output expression="number &amp; &quot;in even&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="number &amp; &quot;in odd&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
